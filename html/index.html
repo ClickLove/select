@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>地区联动选择插件</title>
+</head>
+<body>
+<select name="sheng"></select>
+<select name="shi"></select>
+<select name="qu"></select>
+
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="diqu2.js"></script>
+<script type="text/javascript">
+	 if($("select[name='sheng']").length>0){
+            new PCAS("sheng","shi","qu","","","");
+        }
+</script>
+</body>
+</html>
